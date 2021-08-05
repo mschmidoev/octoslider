@@ -1,0 +1,11 @@
+body, jumbotron {
+  padding: 50px;
+}
+
+.text-giant {
+  font-size: 40px;
+}
+
+* {
+  font-family: Gotham, helvetica, arial, sans-serif;
+}
