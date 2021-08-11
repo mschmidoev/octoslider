@@ -17,7 +17,7 @@ const treeprice = 0
             const cost = cars * (percent/100)*1.96;
             console.log(internationalNumberFormat.format(cost));
             total.innerText = internationalNumberFormat.format(cost.toFixed()) + ' tons of CO2 per year';
-          const treecost = cost*1000/21;
+          const treecost = cost*1000/2;
             console.log(internationalNumberFormat.format(treecost));
            tree.innerText = 'that\'s equal to ' + internationalNumberFormat.format(treecost.toFixed()) + ' trees 🌳 per year';
         }
